@@ -1,0 +1,33 @@
+{
+  "name": "nanoq",
+  "description": "promises for nano",
+  "license": "MIT",
+  "homepage": "https://github.com/muxa/nanoq",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/muxa/nanoq"
+  },
+  "version": "0.0.1",
+  "author": "Mikhail Diatchenko <mikhail.diatchenko@gmail.com>",
+  "keywords": [
+    "couchdb",
+    "nano",
+    "q",
+    "promise"
+  ],
+  "dependencies": {
+    "nano": "^6.1.4",
+    "q": "^1.4.1"
+  },
+  "main": "./lib/nano.js",
+  "bugs": {
+    "url": "https://github.com/muxa/nanoq/issues"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
